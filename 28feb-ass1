@@ -1,0 +1,19 @@
+x=[1,2,3,2,1,3,2,1,2,2]
+l=[]
+ans=[]
+r=[]
+for i in x:
+    if i not in l:
+        l.append(i)
+        y=x.count(i)
+        ans.append(y)
+        if y%2==1:
+          r.append(i)
+print('Odd occurence:',r)
+OUTPUT:-
+Odd occurence: [1, 2]
+
+        
+
+
+        
